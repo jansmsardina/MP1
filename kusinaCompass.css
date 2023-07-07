@@ -1,0 +1,299 @@
+
+*{
+  margin: 0;
+}
+
+/******************Nav Bar Design  **********************/
+.card{
+  border-color:white !important;
+  background-color: transparent !important;
+}
+nav.navbar {
+    background-color: transparent !important;
+}
+
+.navbar .nav-link {
+    color:#03ADFF !important;
+    font-size:25px;
+    font-weight: 700;
+  }
+  .navbar .nav-link:hover {
+    color:white !important;
+  
+  }
+  
+
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: auto;
+  }
+
+  .form-control{
+    font-size: 50px;
+  }
+  
+body.ContactUSBack{
+    background-image: url(/Pcis/contactusbackground.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn-outline-success,.dropdown-item:hover{
+    background-color:#F39D2F !important; 
+    border-color: white;
+  }
+
+  .btn-outline-success{
+    color: white !important;
+    border-color: white !important;
+    width: 150px !important;
+  }
+  .navbar-nav .dropdown-menu{
+    margin-left: 8% !important;
+    margin-top: 2% !important;
+    background-color: #F39D2F !important;
+  }
+
+  .navbar-nav .dropdown-menu:hover{
+    background-color: #e2c093 !important;
+    color: white !important;
+    border-color:transparent;
+
+  }
+  .dropdown-item{
+    color: #ffffff !important;
+  }
+   .nav-link:hover{
+    border: 0px solid transparent !important;
+    background-color: #F39D2F;
+  }
+
+  .navbar-toggler-icon{
+    background-color: white !important;
+
+  }
+  .navbar-toggler{
+  margin-top: -10%;
+    
+  }
+
+  /**********Kusina home Page Carosel  ***********************/
+  div.Caros{
+    background-color: #03ADFF;
+    -webkit-box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
+-moz-box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
+box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
+  }
+  div.Caros{
+    background-image: url(/Pcis/backgroundSteak-modified1120x315.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card img,.card-body{
+    background-color: transparent !important;
+    border: 1px  white;
+    
+  }
+  .center-align {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center-align .ratio {
+    text-align: center;
+  }
+  .card:hover{
+    transform: translateY(-20px);
+  }
+  
+  /* .card img{
+  
+    -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  -moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  
+  }
+  
+  .card-body{
+  
+    -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  -moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  } */
+  div.Carding{
+    background-image: url(/Pcis/restoOpacity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+   
+  }
+
+  /**********Contact Us  ***********************/
+  
+  .form-control,.contactSubmit {
+    background-color: transparent !important;
+    border-color: #e2c093 !important;
+    
+  }
+
+  .form-label,#exampleFormControlInput1 {
+    color: white !important; 
+    width: 250px;
+  }
+
+  #exampleFormControlTextarea1{
+    width: 40%;
+    height: 300px;
+    color: white;
+    font-size: 10px;
+  }
+  .contactSubmit{
+    color:white;
+    border:1px #e2c093 solid;
+    border-radius: 5px;
+  }
+
+  .contactSubmit:hover{
+    color: white;
+    background-color: #F39D2F !important;
+  }
+
+  div.contactUsReachUs {
+    color: #e2c093 !important;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .ContactUsIcon{
+    width: 55px;
+    margin-left: 15px;
+  }
+  .ContactUsIcon:hover{
+  transform: translateY(-20px);
+  }
+/* ************About us********************* */
+#carouselExampleCaptions {
+  max-width: 500px; 
+  margin:  auto; 
+  /* -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+-moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+box-shadow: 1px -8px 17px -1px rgba(243,157,47,1); */
+
+}
+
+.carousel-item img {
+  max-width: 75%;
+  height: auto; 
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+
+.Aboutus p{
+  margin-top: -36%;
+  margin-left: 100px;
+  width: 400px;
+}
+
+/* div .AboutusContainer p{
+  color: #000000 !important;
+  padding: 5% !important;
+text-shadow: #ffffff 2px !important;
+} */
+.AboutUsBackground{
+  background-image: url(/Pcis/table.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+  /* ********** Admin Login Page *************/
+  
+  div.col-12.Username input{
+    width: 200px;
+    justify-content: center;
+    padding: 2px;
+    border: 2.2px solid #F39D2F;
+    border-radius: 5px;
+  
+  }
+  div.col-12.Username{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  div.col-12.Username input:hover{
+    border-color: #03ADFF;
+  }
+
+  label{
+    width: 90px;
+  }
+  .PassAndCreate,.PassAndCreateForgot {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .PassAndCreate button{
+    padding: 2px;
+    width:150px;
+    background-color:#03ADFF;
+    border: 2.2px solid white;
+    margin-left: 5px;
+    /* margin-top: 15px; */
+    border-radius: 5px;
+    color: white;
+    /* margin-top: 30%; */
+    
+  }
+  .PassAndCreateForgot button{
+    padding: 2px;
+    width:150px;
+    background-color:#e2c093;
+    border: 2.2px solid white;
+    /* margin-left: 5px; */
+    /* margin-top: 15px; */
+    border-radius: 5px;
+    color: white;
+  }
+  .PassAndCreate button:hover{
+    background-color: #F39D2F;
+  }
+
+  .PassAndCreateForgot button:hover{
+    background-color: #F39D2F;
+  }
+  .socialIcons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+
+  .SocIcon {
+    align-items: center;
+    width: 25px !important;
+    height: 25px;
+    margin: 5px;
+    
+  }
+    .SocIcon:hover {
+    transform: translateY(-7px);
+  }
+/***********   Mobile  **********/
+
+
+
+
+  
+
